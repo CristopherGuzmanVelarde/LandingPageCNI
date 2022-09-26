@@ -14,3 +14,8 @@ boton.addEventListener("click", function(e){
     }
 })
 
+/*Color y estilo para el boton de menú*/
+const $icono = document.getElementById("icono");
+console.log($icono);
+
+$icono.style.borderBlock = "4px solid lightblue";
